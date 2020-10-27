@@ -11,6 +11,8 @@ JAVA Version：1.8
 3. File includes necessary parameters
 ### Command
 java -jar DepImpactJar-1.0-SNAPSHOT-jar-with-dependencies.jar log-path output-path parameter-file-path
+
+The folder example contains a log and parameter file that can be used for demo
 ### Output
 DepImpact will output several different files.
 1. The original dependency graph of the given POI event, the file name starts with Backtrack
