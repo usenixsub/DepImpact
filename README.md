@@ -16,6 +16,7 @@ DepImpact will output several different files.
 1. The original dependency graph of the given POI event, the file name starts with Backtrack
 2. The dependency graph processed by the edge-merge module.
 3. A json file contains the final weight of each edge, this file ends with weights
-4. There are two files contains entry points used for forward analysis. The name are start_rank. One is json file, the other one is txt file.
+4. There are two files contains entry points. The name are start_rank. One is json file, the other one is txt file.
+5. The folder DepImact includes the critical components. This folder contains a txt file, which shows the entry point of the critical component.
 
 
