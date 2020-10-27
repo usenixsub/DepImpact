@@ -12,7 +12,10 @@ JAVA Version：1.8
 ### Command
 java -jar DepImpactJar-1.0-SNAPSHOT-jar-with-dependencies.jar log-path output-path parameter-file-path
 ### Output
-
-
+DepImpact will output several different files.
+1. The original dependency graph of the given POI event, the file name starts with Backtrack
+2. The dependency graph processed by the edge-merge module.
+3. A json file contains the final weight of each edge, this file ends with weights
+4. There are two files contains entry points used for forward analysis. The name are start_rank. One is json file, the other one is txt file.
 
 
