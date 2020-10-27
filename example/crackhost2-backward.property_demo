@@ -1,0 +1,4 @@
+POI = /tmp/john/password_crack.txt
+highRP = /tmp/john/password_crack.txt
+detectionSize = 124
+
