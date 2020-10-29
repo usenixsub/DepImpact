@@ -12,7 +12,11 @@ JAVA Version：1.8
 ### Command
 java -jar DepImpactJar-1.0-SNAPSHOT-jar-with-dependencies.jar log-path output-path parameter-file-path
 
-The folder example contains a log and parameter file that can be used for demo
+### Data
+Due to the limit of Github, we can't upload the extreme large log file. 
+The folder example contains a log and parameter file that can be used for demo. For this case, the POI event is a file, which contains the user's sensitive information.
+For the DARPA Attack used in evaluation, here is the [github link](https://github.com/darpa-i2o/Transparent-Computing). 
+You can follow their instructions to download data.  
 ### Output
 DepImpact will output several different files.
 1. The original dependency graph of the given POI event, the file name starts with Backtrack
