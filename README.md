@@ -1,12 +1,13 @@
 # DepImpact
 ## Introduction
+![Workflow of DepImpact](architecture.png)
 Causality analysis on system auditing data has emerged as an important solution for attack investigation.
 Given a POI (Point-Of-Interest) event (e.g. an alert fired on a  suspicious file creation), causality analysis constructs a dependency graph, in which nodes represent system entities (e.g. processes and files) and edges represent dependencies among entities, to reveal the attack sequence.
 However, causality analysis often produce a huge graph.
 We propose DepImpact identifies the gritical component of a dependency graph by assigning discriminative weights to edges to distinguish critical edges that represent the attack seqence from less-important dependencies,
 propagating dependency impacts backwards from the POI event to entry points, and ranking entry points by their impacts. 
 In particular, DepImpact performs forward causality analysis from the top-ranked entry points that are likely to be the attack entries to filter out edges in the original dependency graph that are not found in the forward causality analysis. 
-![Workflow of DepImpact](architecture.png)
+
 ## Requirements
 JAVA Version：1.8
 ## Usage
